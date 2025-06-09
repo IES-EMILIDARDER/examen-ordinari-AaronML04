@@ -13,4 +13,14 @@ public class Employee {
         this.department = department;
     }
 
+    public String getFullName() { 
+        return firstName + lastName; }
+
+    public Department getDepartment() {
+        return department;
+    }
+    
+    public String getEmail() { 
+        return email; }
+    
 }

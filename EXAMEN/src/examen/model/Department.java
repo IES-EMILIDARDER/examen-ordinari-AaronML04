@@ -9,4 +9,18 @@ public class Department {
         this.name = name;
     }
 
+    public int getDepartmentId() {
+        return departmentId;
+    }
+
+    public void setDepartmentId(int departmentId) {
+        this.departmentId = departmentId;
+    }
+    
+     // Getters
+    public int getId() { 
+        return departmentId; }
+    
+    public String getName() { 
+        return name; } 
 }

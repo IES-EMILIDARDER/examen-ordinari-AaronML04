@@ -1,6 +1,6 @@
 package EXAMEN.model;
 
-public class Department implements Comparable<Deparment>{
+public class Department implements Comparable<Department>{
     private int departmentId;
     private String name;
     

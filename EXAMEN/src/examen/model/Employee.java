@@ -71,10 +71,10 @@ public class Employee implements Comparable<Employee>{
         return "Employee{" + "firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", department=" + department + '}';
     }
 
+    
     @Override
-    public int compareTo(Employee o) {
-       this.equals(o.getEmail());
-        return 0;
+    public String compareTo(Employee o) {
+       return this.email.compareTo(o.email);
     }
     
     
